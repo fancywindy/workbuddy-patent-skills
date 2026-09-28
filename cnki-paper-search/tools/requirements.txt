@@ -1,0 +1,5 @@
+# CNKI 查论文技能依赖
+# 主通道 SmartLib 用标准库 urllib，无需第三方包。
+# 登录窗口默认用标准库 webbrowser，无需安装。
+# 仅 open_login.py 的 --headed 模式需要 playwright（可选）：
+#   /c/Python314/python.exe -m pip install playwright

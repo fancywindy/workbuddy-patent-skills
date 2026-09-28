@@ -1,0 +1,6 @@
+# 专利查新技能依赖
+# 国知局自动爬取（可选，缺失则降级 WebSearch）
+playwright>=1.40
+pyyaml>=6.0
+# 登录窗口默认用标准库 webbrowser，无需安装；
+# 仅 --headed 模式需要 playwright（见上）。
